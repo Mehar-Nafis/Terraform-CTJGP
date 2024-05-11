@@ -1,4 +1,4 @@
-## AWS EC2 instance creation using Terraform Input Variables
+## Input Variables
 
 
 ### Task-1: Create EC2 instance using Input variables with default values
