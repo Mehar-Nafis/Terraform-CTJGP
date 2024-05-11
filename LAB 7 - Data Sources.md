@@ -1,5 +1,4 @@
-## Understanding Terraform data sources
-### Data sources
+## Data sources
 
 ```
 cd ~
