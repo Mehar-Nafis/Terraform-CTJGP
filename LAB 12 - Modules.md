@@ -1,4 +1,4 @@
-## Creating AWS resources using terraform modules
+## Terraform Modules
 ```
 cd /home/ubuntu/
 ```
