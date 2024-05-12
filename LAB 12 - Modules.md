@@ -17,21 +17,6 @@ cd terraform-modules
 ```
 tree
 ```
-Cat all files to see the module structure
-```
-vi main.tf
-```
-Add the below code after block `module "my_security_group"`
-```
-output "secgrpid" {
-  description = "Newly created sec grp"
-  value       = module.my_security_group.sgid
-}
-```
-```
-cat provider.tf
-```
-**Note:** No change needed in `provider.tf`
 ```
 vi variables.tf 
 ```
