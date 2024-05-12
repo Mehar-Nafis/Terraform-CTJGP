@@ -54,37 +54,37 @@ resource "aws_instance" "ec2" {
   ami = "ami-023c11a32b0207432"                                   #ami is of Red HAt Linux
   key_name = "capstone-key"
   depends_on = [ aws_key_pair.capstone-key ]                      #The Key should be created first
-  vpc_security_group_ids = [aws_security_group.terraform_sg.id]   #attaching a security group for ssh
+  #   vpc_security_group_ids = [aws_security_group.terraform_sg.id]   #attaching a security group for ssh
   tags = {
     Name = "Ansible Server"}
 }
 ```
 ```
-vi sg.tf
-```
-```hcl
+# vi sg.tf
+# ```
+# ```hcl
 
-#Creating the security Group and enabling port 22 for ssh
-resource "aws_security_group" "terraform_sg" {
-  name        = "Mehar-allow-ssh"
-  description = "security group that allows ssh and all egress traffic"
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-  ingress {
-    from_port   = 22
-    to_port     = 22
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-  tags = {
-    Name = "Mehar-allow-ssh"
-  }
-}
-```
+# #Creating the security Group and enabling port 22 for ssh
+# resource "aws_security_group" "terraform_sg" {
+#   name        = "Mehar-allow-ssh"
+#   description = "security group that allows ssh and all egress traffic"
+#   egress {
+#     from_port   = 0
+#     to_port     = 0
+#     protocol    = "-1"
+#     cidr_blocks = ["0.0.0.0/0"]
+#   }
+#   ingress {
+#     from_port   = 22
+#     to_port     = 22
+#     protocol    = "tcp"
+#     cidr_blocks = ["0.0.0.0/0"]
+#   }
+#   tags = {
+#     Name = "Mehar-allow-ssh"
+#   }
+# }
+# ```
 ```
 terraform init
 ```
