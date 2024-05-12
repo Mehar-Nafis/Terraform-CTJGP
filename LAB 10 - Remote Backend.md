@@ -32,9 +32,6 @@ Add the below given lines, by pressing "INSERT"
 resource "aws_instance" "terraform-remoteState" {
   ami           = var.AMIS[var.AWS_REGION]
   instance_type = "t2.nano"
-  provisioner "local-exec" {
-    command = "echo ${aws_instance.terraform-remoteState.private_ip} >> private_ips.txt"
-  }
 }
 
 output "ip" {
