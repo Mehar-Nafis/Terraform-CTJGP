@@ -40,7 +40,7 @@ https://app.terraform.io/app
   }
 ```
 
-### Task 3: Create a new workspace
+### Task 3: Create a new workspace in Terraform Cloud
 
 * Create a new organization
 * Click on create a new workspace
