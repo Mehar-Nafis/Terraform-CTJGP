@@ -1,7 +1,7 @@
 ## Reference Links
 1. [Terraform Providers](https://registry.terraform.io/browse/providers)
 2. [Install Terraform](https://developer.hashicorp.com/terraform/downloads)
-3. [AWS-CLI INstallation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+3. [AWS-CLI Installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 4. [AWS Instance Sample Code - Resource: aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
 5. [Variables and Outputs](https://developer.hashicorp.com/terraform/language/values)
 6. [Terraform Modules](https://developer.hashicorp.com/terraform/language/modules)
