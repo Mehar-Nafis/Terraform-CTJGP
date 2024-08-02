@@ -15,7 +15,7 @@ vi vars.tf
 Add the given lines, by pressing "INSERT" also replace your `Region`
 ```
 variable "AMIS"{
-  description = "Redhat ami ID for the EC2 Instance"
+  description = "Ami ID for the EC2 Instance"
   default = "ami-0d77c9d87c7e619f9"
 }
 
