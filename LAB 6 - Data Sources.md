@@ -4,7 +4,7 @@
 cd ~
 ```
 ```
-mkdir lab7 && cd lab7
+mkdir lab6 && cd lab6
 ```
 ```
 vi data.tf
@@ -49,5 +49,5 @@ terraform destroy
 ```
 ```
 cd ~
-rm -rf lab7
+rm -rf lab6
 ```
