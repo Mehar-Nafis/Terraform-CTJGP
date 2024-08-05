@@ -75,10 +75,6 @@ terraform plan
 terraform apply
 ```
 ```
-ls 
-cat private_ips.txt 
-```
-```
 terraform output Public_ip
 ```
 ```
