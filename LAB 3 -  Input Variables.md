@@ -157,10 +157,9 @@ Now create `terraform.tfvars,` file to pass the variable values in it, and  see 
 ```
 vi terraform.tfvars 
 ```
-Add the given lines, by pressing "INSERT" Also replace them with your `AccessKey` and `Secret Access Keys` that you created and downloaded earlier.
+Add the given lines, by pressing "INSERT" 
 ```
 Linux_distro = "ubuntu"
-
 Instance_type = "t2.large"
 ```
 Save the file using "ESCAPE + :wq!"
