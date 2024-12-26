@@ -24,7 +24,7 @@ sudo apt update
 sudo apt install wget unzip -y
 ```
 ```
-wget https://releases.hashicorp.com/terraform/1.8.3/terraform_1.8.3_linux_amd64.zip
+wget https://releases.hashicorp.com/terraform/1.10.3/terraform_1.10.3_linux_amd64.zip
 
 ```
 To know the latest Terraform version - [Install Terraform](https://developer.hashicorp.com/terraform/downloads)
